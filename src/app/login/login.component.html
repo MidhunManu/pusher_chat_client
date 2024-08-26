@@ -1,0 +1,11 @@
+<div class="d-flex justify-content-center align-items-center vh-100 bg-light">
+    <div class="card shadow" style="width: 100%; max-width: 400px;">
+        <div class="card-body">
+            <h5 class="card-title text-center mb-4">Let's Chat</h5>
+                <div class="mb-3">
+                    <input type="text" [(ngModel)]="username" class="form-control" placeholder="Username" aria-label="Username">
+                </div>
+                <button (click)="login()" class="btn btn-danger w-100">Let's Go</button>
+        </div>
+    </div>
+</div>

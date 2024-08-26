@@ -1,0 +1,45 @@
+.message-left {
+  background-color: #f1f1f1;
+  color: #000;
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.message-right {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+
+}
+
+.justify-content-start {
+  justify-content: flex-start;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.overflow-auto {
+  overflow-y: auto;
+}
